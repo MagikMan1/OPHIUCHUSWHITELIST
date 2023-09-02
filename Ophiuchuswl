@@ -1,5 +1,5 @@
-local player = game.Players.LocalPlayer.Name
-local t = {"OphiuchusOwner", "Skidclientisthebest"}
+local player = game.Players.LocalPlayer.UserId
+local t = {4990194708, 4992759624}
 
 for i,v in pairs(t) do
  if player == v then
