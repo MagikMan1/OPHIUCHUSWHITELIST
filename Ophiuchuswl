@@ -5,3 +5,11 @@ if player.Name == "OphiuchusOwner" then
     else 
         player:kick("Imagine Not"  ..  " Whitelisted")
     end
+
+local player = game.Players.LocalPlayer
+
+if player.Name == "Skidclientisthebest" then
+    print("Whitelisted")
+    else 
+        player:kick("Imagine Not"  ..  " Whitelisted")
+    end
