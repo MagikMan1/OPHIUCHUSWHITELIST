@@ -1,15 +1,10 @@
-local player = game.Players.LocalPlayer
+local player = game.Players.LocalPlayer.Name
+local t = {"OphiuchusOwner", "Skidclientisthebest"}
 
-if player.Name == "OphiuchusOwner" then
-    print("Whitelisted")
-    else 
-        player:kick("Imagine Not"  ..  " Whitelisted")
-    end
-
-local player = game.Players.LocalPlayer
-
-if player.Name == "Skidclientisthebest" then
-    print("Whitelisted")
-    else 
-        player:kick("Imagine Not"  ..  " Whitelisted")
-    end
+for i,v in pairs(t) do
+ if player == v then
+    print("whitelisted")
+else
+game.Players.LocalPlayer:Kick("Not whitelisted")
+   end
+end
