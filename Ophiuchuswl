@@ -1,5 +1,5 @@
 local player = game.Players.LocalPlayer.UserId
-local t = {4990194708, 4992759624}
+local t = {4990194708, 4962826974}
 local isWhitelisted = false
 
 for i, v in pairs(t) do
